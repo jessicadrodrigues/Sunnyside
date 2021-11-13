@@ -2,9 +2,9 @@
     margin:0;
 }
 body{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Fraunces', serif;
 }
-
+    
 header{
     background-image: url(/images/desktop/image-header.jpg);
     background-position:bottom;
@@ -32,30 +32,26 @@ header{
             display: flex;
             justify-content:space-between;
            
-            
-
             li{
-                font-family: 'Open Sans Condensed', sans-serif;
+                font-family: 'Barlow', sans-serif;
+                font-weight: 500;
                 color:#fff;
                 list-style: none;
                 padding:20px;
-                letter-spacing: 3px;
+                
             }
         }
        
     }
 
-   
-
-
     .title{
         h1{
-            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Fraunces', serif;
             background-color:#3dbeff;
             color:#fff;
             text-align: center;
             padding:36px;
-            font-size:80px;
+            font-size:60px;
             text-transform: uppercase;
         }
         img{
@@ -71,7 +67,7 @@ header{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
+   
     .item{
         width:100%;
     }
@@ -80,23 +76,28 @@ header{
         align-items: center;
         
         .text{
-            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Barlow', sans-serif;
             width:50%;
             text-align: center;
-            
-
-            h1{                
+           
+            h1{   
+                font-family: 'Fraunces', serif;             
                 padding-bottom: 30px;
                 font-weight: bolder;
             }
-            p{
+            p{  
                 padding-bottom: 30px;
+                color:#99989e;
+                font-family: 'Barlow', sans-serif;
+                line-height: 25px;
+                font-weight: 600;
             }
             a{
+                color:#2d3945;
+                font-family: 'Fraunces', serif;
                 text-transform: uppercase;
             }
-            
-            
+                        
         }
         .photo{
             position: relative;
@@ -108,31 +109,38 @@ header{
                 object-fit: cover;
             }
             .texto{
+                color:#376b5f;
                 width: 100%;
                 text-align: center;
-                font-family: 'Open Sans Condensed', sans-serif;
                 position: absolute;
                 left:0;
                 bottom:150px;
+                font-family: 'Barlow', sans-serif;
                 h1{
+                    font-family: 'Fraunces', serif;
                     padding-bottom: 30px;
                 }
-                
+                                
             }
+        
         }
 
     }
 }
 .testemunhos{
+    padding-top:60px;
+    
     h2{
+        color:#1c2834;
         text-align: center;
-        padding:30px 0 ; 
+        padding:15px 0 15px 0 ; 
     }
+
     .testemunhos2{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        
+                
         .test{
             .photo{
                 text-align: center;
@@ -143,14 +151,71 @@ header{
             }
             .relato{
                 padding-top:30px;
+                color:#56555a;
+                font-family: 'Barlow', sans-serif;
+                font-weight: 550;
+                font-size: 15px;
+                line-height: 23px;
             }
             .name{
                 padding: 10px 0 90px 0;
                 p{
+                    color:#99989e;
                     text-align: center;
+                    font-family: 'Barlow', sans-serif;
+                    font-weight: 550;
+                    
                 }
             }
         }
     }
 
+}
+
+.end{
+    background-color:red;
+    .images{
+       display:flex;
+
+       img{
+           width:25%;
+       }
+    }
+    
+}
+footer{
+    background-color: #90d4c5;
+    height:167px;
+    padding:30px;
+    
+    h2{
+        padding:0 0 30px 0;
+        text-align: center;
+        color:#277160;
+    }
+    .menu-footer{
+        display:flex;
+        justify-content: center;
+        padding-bottom:20px;
+       
+        ul{
+            padding:0;
+            margin:0;
+        }
+        li{
+            padding:0 20px;
+            color:#277160;
+            list-style: none;
+        }
+
+    }
+    .social-medias{
+        padding:20px;
+        display: flex;
+        justify-content: center;
+
+        img{
+            padding:0 20px;
+        }
+    }
 }
