@@ -346,10 +346,10 @@ body{
     header{
         height: 100vh;
         width:100vw;
-        background-image: url(/images/desktop/image-header.jpg);
+        background-image: url(../../images/desktop/image-header.jpg);
         background-position: bottom;
         background-size: cover;
-        padding-top: 2rem;
+        padding-top: 3rem;
         
 
         .item{
@@ -683,8 +683,7 @@ body{
     body{
         max-width: 1366px;
         width:100vw;
-        color:#fffbf8;
-        
+        color:#fffbf8; 
     
     header{
         height: 100vh;
@@ -774,14 +773,14 @@ body{
 
                 h1{
                     font-weight: 900;
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                     line-height: 2.4rem;
                 }
                 p{  
                     
                     width: 70%;
                     margin-top: 0;
-                    font-size: 1.4rem;
+                    font-size: 1rem;
                     color:#9a97a0;
                     line-height: 2.5rem;
                     font-weight: bolder;
@@ -824,14 +823,14 @@ body{
 
                 h1{
                     font-weight: 900;
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                     line-height: 2.4rem;
                 }
                 p{  
                     
                     width: 70%;
                     margin-top: 0;
-                    font-size: 1.4rem;
+                    font-size: 1rem;
                     color:#9a97a0;
                     line-height: 2.5rem;
                     font-weight: bolder;
