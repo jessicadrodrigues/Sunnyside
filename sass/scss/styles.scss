@@ -1,20 +1,28 @@
 body{
-    width: 100vw;
+    width: 100%;
+    margin:0;
+    padding:0;
     font-size: 16px;
-    h1, h2, h3, h4{
+    h1, h2, h3, h4, a{
     font-family: 'Fraunces', serif;
+    color:#27303f;
     }
     p{
         font-family: 'Barlow', sans-serif;
     }
 }
 @media screen and (max-width:640px){
+    img{
+        width: 100vw;
+    }
     header{
         height: 100vh;
         width:100vw;
-        background-image: url("/images/mobile/image-header.jpg");
+        background-image: url("/images/desktop/image-header.jpg");
         background-position: bottom;
         background-size: cover;
+        padding-top: 2rem;
+        
 
         .item{
             display: flex;
@@ -41,7 +49,8 @@ body{
                         font-family: 'Barlow', sans-serif;
                         color:#fff;
                         font-weight: 600;
-                        padding-left: 1rem;
+                        padding-right: 1rem;
+                        line-height: 2rem;
                         font-size: 1.08rem;
                         display: inline;
                     }
@@ -55,12 +64,171 @@ body{
 
             h1{
                 width:100vw;
-                font-size: 3rem;
+                font-size: 2rem;
                 text-transform: uppercase;
                 letter-spacing: .8rem;
                 color: #fff;
-                padding: 2rem 0 2rem 0 ;
+                padding: 9vh 0 5vh 0;
+               
+            }
+            img{
+                width: 10vw;
             }
         }
+    }
+
+    .main{
+        width: 100vw;
+
+        .bloco1{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100%;
+            width: 100vw;
+
+            img{
+                height: 50%;
+            }
+            .text{
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 80vw;
+                height: 50%;
+                //padding-top: 1rem;
+                padding-bottom: 1rem;
+                
+
+                h1{
+                    
+                    font-size: 2rem;
+                }
+                p{
+                    margin-top: 0;
+                    font-size: 1rem;
+                    color:#9a97a0;
+                    line-height: 1.5rem;
+                    font-weight: bolder;
+                }
+                a{
+                    padding-top: 1rem;
+                    text-decoration: none;
+                    color:#27303f;
+                    text-transform: uppercase;
+                    font-weight: 900;
+                }
+
+            }
+            
+        }
+        .bloco2{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100%;
+            width: 100vw;
+
+            img{
+                height: 50%;
+            } 
+
+            .text{
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 80vw;
+                height: 50%;
+                //padding-top: 1rem;
+                padding-bottom: 1rem;
+
+
+                h1{
+                    
+                    font-size: 2rem;
+                }
+                p{
+                    margin-top: 0;
+                    font-size: 1.2rem;
+                    color:#9a97a0;
+                    line-height: 1.5rem;
+                    font-weight: bolder;
+                }
+                a{
+                    padding-top: 1rem;
+                    text-decoration: none;
+                    color:#27303f;
+                    text-transform: uppercase;
+                    font-weight: 900;
+                }
+
+            }
+            
+        }
+
+        .bloco3{
+            height: 100vh;
+            background-image: url("/images/mobile/image-graphic-design.jpg");
+            background-size: cover;
+            
+            img{
+                display: none;
+            }
+                
+            .photo1{
+                .texto{
+                    text-align: center;
+                    padding-top: 28rem;
+                    
+                    h1{
+                        font-weight: 800;
+                        color:#22584b;
+                    } 
+                    p{
+                        padding: 0 1rem;
+                        line-height: 1.7rem;
+                        font-weight: 600;
+                        color:#22584b;
+                    }
+                    }
+            }
+            
+            
+        }
+        .bloco4{
+            height: 100vh;
+            background-image: url("/images/mobile/image-photography.jpg");
+            background-size: cover;
+            background-position: center;
+            
+            img{
+                display: none;
+            }
+                
+            .photo2{
+                .texto{
+                    text-align: center;
+                    padding-top: 28rem;
+                    
+                    h1{
+                        font-weight: 800;
+                        color:#22584b;
+                    } 
+                    p{
+                        padding: 0 1rem;
+                        line-height: 1.7rem;
+                        font-weight: 600;
+                        color:#22584b;
+                    }
+                    }
+            }
+            
+            
+        }
+        
     }
 }
